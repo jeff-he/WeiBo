@@ -22,6 +22,9 @@
     }
     
     NSLog(@"21212");
+    
+    NSInteger i;
+    NSLog(@"2332");
 }
 
 @end
