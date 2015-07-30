@@ -13,4 +13,5 @@
 @property (nonatomic, copy) NSString *phone;
 @property (nonatomic, assign) float height;
 @property (nonatomic, assign) float weight;
+@property (nonatomic, assign) int age;
 @end
