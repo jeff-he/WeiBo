@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF5F9B31B6A046F007F3093 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5F9B21B6A046F007F3093 /* Person.m */; };
 		6368FB411B68DBEE004F8684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368FB401B68DBEE004F8684 /* main.m */; };
 		6368FB441B68DBEE004F8684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368FB431B68DBEE004F8684 /* AppDelegate.m */; };
 		6368FB471B68DBEE004F8684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368FB461B68DBEE004F8684 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF5F9B11B6A046F007F3093 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1FF5F9B21B6A046F007F3093 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6368FB3B1B68DBEE004F8684 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6368FB3F1B68DBEE004F8684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6368FB401B68DBEE004F8684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				6368FB431B68DBEE004F8684 /* AppDelegate.m */,
 				6368FB451B68DBEE004F8684 /* ViewController.h */,
 				6368FB461B68DBEE004F8684 /* ViewController.m */,
+				1FF5F9B11B6A046F007F3093 /* Person.h */,
+				1FF5F9B21B6A046F007F3093 /* Person.m */,
 				6368FB481B68DBEE004F8684 /* Main.storyboard */,
 				6368FB4B1B68DBEE004F8684 /* Images.xcassets */,
 				6368FB4D1B68DBEE004F8684 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				6368FB471B68DBEE004F8684 /* ViewController.m in Sources */,
 				6368FB441B68DBEE004F8684 /* AppDelegate.m in Sources */,
+				1FF5F9B31B6A046F007F3093 /* Person.m in Sources */,
 				6368FB411B68DBEE004F8684 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				6368FB601B68DBEF004F8684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6368FB611B68DBEF004F8684 /* Build configuration list for PBXNativeTarget "WeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				6368FB631B68DBEF004F8684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
