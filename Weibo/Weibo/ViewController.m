@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"第一次输出的文件");
+    for ( int i = 0 ; i < 1000 ; i++ ) {
+        NSLog(@"i ==== %d", i);
+    }
 }
 
 @end
