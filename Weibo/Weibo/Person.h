@@ -10,4 +10,7 @@
 
 @interface Person : NSObject
 @property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *phone;
+@property (nonatomic, assign) float height;
+@property (nonatomic, assign) float weight;
 @end
